@@ -3,15 +3,9 @@
 <property name="name" value="StackHolderTask-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="Description" type="InputText" id="1738833561">
+<field position="0" name="Project" type="InputText" id="588515956">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;Description (Description)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="Description"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="1" name="Project" type="InputText" id="588515956">
-<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;Project (Project)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="Project"/>
@@ -19,13 +13,17 @@
 </field>
 <field position="2" name="StackholderAPFlag" type="CheckBox" id="1192332925">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;SHApproval (StackholderAPFlag)quot;"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Approvalquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="SHApproval"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="3" name="StackholderComment" type="InputText" id="1822889845">
+<field position="1" name="StackholderComment" type="InputText" id="1822889845">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;Comments (StackholderComment)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="Comments"/>
