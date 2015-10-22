@@ -11,23 +11,23 @@
 <property name="inputBinding" value="Project"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="StackholderAPFlag" type="CheckBox" id="1192332925">
+<field position="1" name="StackholderComment" type="InputText" id="1822889845">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;Comments (StackholderComment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Comments"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="StackholderAPFlag" type="CheckBox" id="1192332925">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Approvalquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="SHApproval"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="1" name="StackholderComment" type="InputText" id="1822889845">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;Comments (StackholderComment)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="Comments"/>
-<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="" name="#B29FE4" type="basicType" outId="Description" value="java.lang.String" id="Description"/>
 <dataHolder inputId="Project" name="#FBB767" type="basicType" outId="" value="java.lang.String" id="Project"/>
