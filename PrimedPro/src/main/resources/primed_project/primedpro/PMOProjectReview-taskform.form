@@ -1,0 +1,23 @@
+
+<form id="2045550804">
+<property name="name" value="PMOProjectReview-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="Project" type="InputText" id="197097583">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Project (Project)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="Project"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="PMOApprovalFlag" type="CheckBox" id="1172303536">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PMOApproval (PMOApprovalFlag)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="PMOApproval"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="PMOApproval" value="java.lang.Boolean" id="PMOApprovalFlag"/>
+<dataHolder inputId="" name="#E9E371" type="className" outId="PMOComment" value="java.lang.Object" id="PMOProComments"/>
+<dataHolder inputId="Project" name="#A7E690" type="basicType" outId="" value="java.lang.String" id="Project"/>
+</form>
