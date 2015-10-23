@@ -1,0 +1,87 @@
+
+<form id="913394499">
+<property name="name" value="PrimedPro.Project_Flow-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="ActorPM" type="InputText" id="1751699075">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ActorPM (ActorPM)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="ActorPM"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="ActorPMO" type="InputText" id="703540688">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ActorPMO (ActorPMO)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="ActorPMO"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="ActorStackHolder" type="InputText" id="1148394507">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ActorStackHolder (ActorStackHolder)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="ActorStackHolder"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="Comments" type="InputTextInteger" id="715318117">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Comments (Comments)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Comments"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="4" name="PMApprovalFlag" type="CheckBox" id="1341468140">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PMApprovalFlag (PMApprovalFlag)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="PMApprovalFlag"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="5" name="PMOApprovalFlag" type="CheckBox" id="2087272569">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PMOApprovalFlag (PMOApprovalFlag)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="PMOApprovalFlag"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="6" name="Project" type="InputText" id="697636127">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Project (Project)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Project"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="ProjectID" type="InputTextInteger" id="372035652">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ProjectID (ProjectID)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="ProjectID"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="8" name="StackHolderComment" type="InputText" id="66894865">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;StackHolderComment (StackHolderComment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="StackHolderComment"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="StackholderAPFlag" type="CheckBox" id="1817988705">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;StackholderAPFlag (StackholderAPFlag)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="StackholderAPFlag"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="ActorPM" value="java.lang.String" id="ActorPM"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="ActorPMO" value="java.lang.String" id="ActorPMO"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="ActorStackHolder" value="java.lang.String" id="ActorStackHolder"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="Comments" value="java.lang.Integer" id="Comments"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="PMApprovalFlag" value="java.lang.Boolean" id="PMApprovalFlag"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="PMOApprovalFlag" value="java.lang.Boolean" id="PMOApprovalFlag"/>
+<dataHolder inputId="" name="#E9E371" type="className" outId="PMOProComments" value="java.lang.Object" id="PMOProComments"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="Project" value="java.lang.String" id="Project"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="ProjectID" value="java.lang.Integer" id="ProjectID"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="StackHolderComment" value="java.lang.String" id="StackHolderComment"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="StackholderAPFlag" value="java.lang.Boolean" id="StackholderAPFlag"/>
+</form>
