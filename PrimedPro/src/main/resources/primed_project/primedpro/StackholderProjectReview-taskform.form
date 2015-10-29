@@ -3,12 +3,12 @@
 <property name="name" value="StackholderProjectReview-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="3" name="projectId" type="InputTextInteger" id="1201140512">
+<field position="0" name="CommentCapture" type="InputText" id="1464807345">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;projectID (projectId)quot;"/>
+<property name="label" value="quot;enquot;,quot;SHComments (CommentCapture)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="projectID"/>
-<property name="fieldClass" value="java.lang.Integer"/>
+<property name="outputBinding" value="SHComments"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="1" name="FlagCapture" type="InputText" id="1774509502">
 <property name="fieldRequired" value="false"/>
@@ -22,13 +22,6 @@
 <property name="label" value="quot;enquot;,quot;SHProject (Project)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="SHProject"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="0" name="CommentCapture" type="InputText" id="1464807345">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;SHComments (CommentCapture)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="SHComments"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="" name="#BBBBBB" type="basicType" outId="SHComments" value="java.lang.String" id="CommentCapture"/>
