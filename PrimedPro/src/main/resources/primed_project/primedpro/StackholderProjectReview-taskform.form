@@ -1,0 +1,38 @@
+
+<form id="391956991">
+<property name="name" value="StackholderProjectReview-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="CommentCapture" type="InputText" id="387107635">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;SHComments (CommentCapture)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="SHComments"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="projectId" type="InputTextInteger" id="840310495">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;projectID (projectId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="projectID"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="Project" type="InputText" id="699760767">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;SHProject (Project)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="SHProject"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="FlagCapture" type="InputText" id="280320779">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;SHApproval (FlagCapture)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="SHApproval"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="SHComments" value="java.lang.String" id="CommentCapture"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="SHApproval" value="java.lang.String" id="FlagCapture"/>
+<dataHolder inputId="SHProject" name="#A7E690" type="basicType" outId="" value="java.lang.String" id="Project"/>
+<dataHolder inputId="projectID" name="#0000A0" type="basicType" outId="" value="java.lang.Integer" id="projectId"/>
+</form>
