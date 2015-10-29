@@ -48,8 +48,28 @@
 	function taskFormValidator() {
 		var i=0;
 		var myInputs = new Array();
+					myInputs[i] = document.getElementById("Comments");
+					i++;
+					myInputs[i] = document.getElementById("SHApproval");
+					i++;
+
 
 		var j=0;
+						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
+							alert("Please enter valid Comments");
+							myInputs[j].focus();
+							return false;
+						}
+			
+					j++;
+						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
+							alert("Please enter valid SHApproval");
+							myInputs[j].focus();
+							return false;
+						}
+			
+					j++;
+
 		return true;
 	}
 </script>
@@ -200,7 +220,7 @@
 </style>
 <div id="container">
 	<div id="header">
-		User Task Form: Project_Flow.PMProjectReview
+		User Task Form: Project_Flow.StackHolderTask
 	</div>
 	<div id="content">
 	    <input type="hidden" name="taskId" value="${task.id}"/>
@@ -208,7 +228,7 @@
             <legend>Task Info</legend>
             	<label for="name">Owners</label>
             	<div class="div_checkbox">
-											${ActorPM}
+											${ActorStackHolder}
             	
             	</div>
             	<label for="name">Actor ID</label>
@@ -226,13 +246,9 @@
 
 		<fieldset>
             <legend>Task Inputs</legend>
-                            		<label for="name">PMProject</label>
+                            		<label for="name">Project</label>
                             		<div class="div_checkbox">
-                              		${PMProject}
-                            		</div>
-                            		<label for="name">PMComment</label>
-                            		<div class="div_checkbox">
-                              		${PMComment}
+                              		${Project}
                             		</div>
 
             <div class="clear"></div>
@@ -240,6 +256,17 @@
 
           <fieldset>
             <legend>Task Outputs</legend>
+                            		<label for="name">Comments</label>
+                            		<div class="div_texbox">
+                              		<input name="Comments" type="text" class="textbox" id="Comments" value="${Comments}" />
+                            		</div>
+              	
+                            		<label for="name">SHApproval</label>
+                            		<div class="div_checkbox">
+                              		<input name="SHApproval" type="checkbox" class="checkbox" id="SHApproval" value="${SHApproval}" />
+                            		</div>
+              	
+
           </fieldset>
 	</div>
 	<div id="footer">

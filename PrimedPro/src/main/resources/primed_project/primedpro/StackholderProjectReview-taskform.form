@@ -1,39 +1,30 @@
 
-<form id="1850745949">
+<form id="37729098">
 <property name="name" value="StackholderProjectReview-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="CommentCapture" type="InputText" id="1464807345">
+<field position="1" name="StackHolderComment" type="InputText" id="2139842287">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;SHComments (CommentCapture)quot;"/>
+<property name="label" value="quot;enquot;,quot;SHComments (StackHolderComment)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="SHComments"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="FlagCapture" type="InputText" id="1774509502">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;SHApproval (FlagCapture)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="SHApproval"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="2" name="Project" type="InputText" id="1275345193">
+<field position="0" name="Project" type="InputText" id="1258211595">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;SHProject (Project)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="SHProject"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="captureActor" type="InputText" id="840469210">
+<field position="2" name="StackholderAPFlag" type="CheckBox" id="1658657346">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;setActor (captureActor)quot;"/>
+<property name="label" value="quot;enquot;,quot;SHApproval (StackholderAPFlag)quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="setActor"/>
-<property name="fieldClass" value="java.lang.String"/>
+<property name="outputBinding" value="SHApproval"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="SHComments" value="java.lang.String" id="CommentCapture"/>
-<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="SHApproval" value="java.lang.String" id="FlagCapture"/>
 <dataHolder inputId="SHProject" name="#A7E690" type="basicType" outId="" value="java.lang.String" id="Project"/>
-<dataHolder inputId="" name="#A7E690" type="basicType" outId="setActor" value="java.lang.String" id="captureActor"/>
-<dataHolder inputId="projectID" name="#0000A0" type="basicType" outId="" value="java.lang.Integer" id="projectId"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="SHComments" value="java.lang.String" id="StackHolderComment"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="SHApproval" value="java.lang.Boolean" id="StackholderAPFlag"/>
 </form>

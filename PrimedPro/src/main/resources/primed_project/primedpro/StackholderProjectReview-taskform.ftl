@@ -52,8 +52,6 @@
 					i++;
 					myInputs[i] = document.getElementById("SHComments");
 					i++;
-					myInputs[i] = document.getElementById("setActor");
-					i++;
 
 
 		var j=0;
@@ -66,13 +64,6 @@
 					j++;
 						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
 							alert("Please enter valid SHComments");
-							myInputs[j].focus();
-							return false;
-						}
-			
-					j++;
-						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
-							alert("Please enter valid setActor");
 							myInputs[j].focus();
 							return false;
 						}
@@ -237,7 +228,7 @@
             <legend>Task Info</legend>
             	<label for="name">Owners</label>
             	<div class="div_checkbox">
-											${shActor}
+											${ActorStackHolder}
             	
             	</div>
             	<label for="name">Actor ID</label>
@@ -245,7 +236,7 @@
             	<label for="name">Group</label>
             	<div class="div_checkbox"></div>
             	<label for="name">Skippable</label>
-            	<div class="div_checkbox">false</div>
+            	<div class="div_checkbox">true</div>
             	<label for="name">Priority</label>
             	<div class="div_checkbox"></div>
             	<label for="name">Comment</label>
@@ -259,14 +250,6 @@
                             		<div class="div_checkbox">
                               		${SHProject}
                             		</div>
-                            		<label for="name">projectID</label>
-                            		<div class="div_checkbox">
-                              		${projectID}
-                            		</div>
-                            		<label for="name">LocalActor</label>
-                            		<div class="div_checkbox">
-                              		${LocalActor}
-                            		</div>
 
             <div class="clear"></div>
           </fieldset>
@@ -274,18 +257,13 @@
           <fieldset>
             <legend>Task Outputs</legend>
                             		<label for="name">SHApproval</label>
-                            		<div class="div_texbox">
-                              		<input name="SHApproval" type="text" class="textbox" id="SHApproval" value="${SHApproval}" />
+                            		<div class="div_checkbox">
+                              		<input name="SHApproval" type="checkbox" class="checkbox" id="SHApproval" value="${SHApproval}" />
                             		</div>
               	
                             		<label for="name">SHComments</label>
                             		<div class="div_texbox">
                               		<input name="SHComments" type="text" class="textbox" id="SHComments" value="${SHComments}" />
-                            		</div>
-              	
-                            		<label for="name">setActor</label>
-                            		<div class="div_texbox">
-                              		<input name="setActor" type="text" class="textbox" id="setActor" value="${setActor}" />
                             		</div>
               	
 

@@ -52,9 +52,9 @@
 					i++;
 					myInputs[i] = document.getElementById("StackholderAPFlag");
 					i++;
-					myInputs[i] = document.getElementById("actorPM");
+					myInputs[i] = document.getElementById("ActorPM");
 					i++;
-					myInputs[i] = document.getElementById("actorStackHolder");
+					myInputs[i] = document.getElementById("ActorStackHolder");
 					i++;
 					myInputs[i] = document.getElementById("ProjectComments");
 					i++;
@@ -64,23 +64,11 @@
 					i++;
 					myInputs[i] = document.getElementById("PMOApprovalFlag");
 					i++;
-					myInputs[i] = document.getElementById("actorPMO");
+					myInputs[i] = document.getElementById("ActorPMO");
 					i++;
-					myInputs[i] = document.getElementById("projectId");
+					myInputs[i] = document.getElementById("ProjectID");
 					i++;
 					myInputs[i] = document.getElementById("PMOProComments");
-					i++;
-					myInputs[i] = document.getElementById("shActor");
-					i++;
-					myInputs[i] = document.getElementById("CommentCapture");
-					i++;
-					myInputs[i] = document.getElementById("FlagCapture");
-					i++;
-					myInputs[i] = document.getElementById("shMailBody");
-					i++;
-					myInputs[i] = document.getElementById("pmoMailBoday");
-					i++;
-					myInputs[i] = document.getElementById("captureActor");
 					i++;
 
 
@@ -98,13 +86,13 @@
 						}
 					j++;
 						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
-							alert("Please enter valid actorPM");
+							alert("Please enter valid ActorPM");
 							myInputs[j].focus();
 							return false;
 						}
 					j++;
 						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
-							alert("Please enter valid actorStackHolder");
+							alert("Please enter valid ActorStackHolder");
 							myInputs[j].focus();
 							return false;
 						}
@@ -134,55 +122,19 @@
 						}
 					j++;
 						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
-							alert("Please enter valid actorPMO");
+							alert("Please enter valid ActorPMO");
 							myInputs[j].focus();
 							return false;
 						}
 					j++;
 						if(notEmpty(myInputs[j]) && !isNumeric(myInputs[j])) {
-							alert("Please enter valid projectId");
+							alert("Please enter valid ProjectID");
 							myInputs[j].focus();
 							return false;
 						}
 					j++;
 						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
 							alert("Please enter valid PMOProComments");
-							myInputs[j].focus();
-							return false;
-						}
-					j++;
-						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
-							alert("Please enter valid shActor");
-							myInputs[j].focus();
-							return false;
-						}
-					j++;
-						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
-							alert("Please enter valid CommentCapture");
-							myInputs[j].focus();
-							return false;
-						}
-					j++;
-						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
-							alert("Please enter valid FlagCapture");
-							myInputs[j].focus();
-							return false;
-						}
-					j++;
-						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
-							alert("Please enter valid shMailBody");
-							myInputs[j].focus();
-							return false;
-						}
-					j++;
-						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
-							alert("Please enter valid pmoMailBoday");
-							myInputs[j].focus();
-							return false;
-						}
-					j++;
-						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
-							alert("Please enter valid captureActor");
 							myInputs[j].focus();
 							return false;
 						}
@@ -350,18 +302,18 @@
                             		</div>
               	
                             		<label for="name">StackholderAPFlag</label>
-                            		<div class="div_texbox">
-                              		<input name="StackholderAPFlag" type="text" class="textbox" id="StackholderAPFlag" value="" />
+                            		<div class="div_checkbox">
+                              		<input name="StackholderAPFlag" type="checkbox" class="checkbox" id="StackholderAPFlag" value="true" />
                             		</div>
               	
-                            		<label for="name">actorPM</label>
+                            		<label for="name">ActorPM</label>
                             		<div class="div_texbox">
-                              		<input name="actorPM" type="text" class="textbox" id="actorPM" value="" />
+                              		<input name="ActorPM" type="text" class="textbox" id="ActorPM" value="" />
                             		</div>
               	
-                            		<label for="name">actorStackHolder</label>
+                            		<label for="name">ActorStackHolder</label>
                             		<div class="div_texbox">
-                              		<input name="actorStackHolder" type="text" class="textbox" id="actorStackHolder" value="" />
+                              		<input name="ActorStackHolder" type="text" class="textbox" id="ActorStackHolder" value="" />
                             		</div>
               	
                             		<label for="name">ProjectComments</label>
@@ -384,49 +336,19 @@
                               		<input name="PMOApprovalFlag" type="checkbox" class="checkbox" id="PMOApprovalFlag" value="true" />
                             		</div>
               	
-                            		<label for="name">actorPMO</label>
+                            		<label for="name">ActorPMO</label>
                             		<div class="div_texbox">
-                              		<input name="actorPMO" type="text" class="textbox" id="actorPMO" value="" />
+                              		<input name="ActorPMO" type="text" class="textbox" id="ActorPMO" value="" />
                             		</div>
               	
-                            		<label for="name">projectId</label>
+                            		<label for="name">ProjectID</label>
                             		<div class="div_texbox">
-                              		<input name="projectId" type="text" class="textbox" id="projectId" value="" />
+                              		<input name="ProjectID" type="text" class="textbox" id="ProjectID" value="" />
                             		</div>
               	
                             		<label for="name">PMOProComments</label>
                             		<div class="div_texbox">
                               		<input name="PMOProComments" type="text" class="textbox" id="PMOProComments" value="" />
-                            		</div>
-              	
-                            		<label for="name">shActor</label>
-                            		<div class="div_texbox">
-                              		<input name="shActor" type="text" class="textbox" id="shActor" value="" />
-                            		</div>
-              	
-                            		<label for="name">CommentCapture</label>
-                            		<div class="div_texbox">
-                              		<input name="CommentCapture" type="text" class="textbox" id="CommentCapture" value="" />
-                            		</div>
-              	
-                            		<label for="name">FlagCapture</label>
-                            		<div class="div_texbox">
-                              		<input name="FlagCapture" type="text" class="textbox" id="FlagCapture" value="" />
-                            		</div>
-              	
-                            		<label for="name">shMailBody</label>
-                            		<div class="div_texbox">
-                              		<input name="shMailBody" type="text" class="textbox" id="shMailBody" value="" />
-                            		</div>
-              	
-                            		<label for="name">pmoMailBoday</label>
-                            		<div class="div_texbox">
-                              		<input name="pmoMailBoday" type="text" class="textbox" id="pmoMailBoday" value="" />
-                            		</div>
-              	
-                            		<label for="name">captureActor</label>
-                            		<div class="div_texbox">
-                              		<input name="captureActor" type="text" class="textbox" id="captureActor" value="" />
                             		</div>
               	
 
