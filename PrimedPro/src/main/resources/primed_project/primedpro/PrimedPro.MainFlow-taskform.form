@@ -1,0 +1,62 @@
+
+<form id="634640003">
+<property name="name" value="PrimedPro.MainFlow-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="test" type="InputText" id="213813196">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;test (test)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="test"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="vIfYes" type="CheckBox" id="197427739">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;vIfYes (vIfYes)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="vIfYes"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="count" type="InputTextInteger" id="664948948">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;count (count)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="count"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="list" type="InputText" id="550530172">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;list (list)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="list"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="new123" type="InputText" id="399246307">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;new123 (new123)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="new123"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="new2" type="InputText" id="1846410">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;new2 (new2)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="new2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="para" type="InputText" id="919536182">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;para (para)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="para"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="count" value="java.lang.Integer" id="count"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="list" value="java.lang.String" id="list"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="new123" value="java.lang.String" id="new123"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="new2" value="java.lang.String" id="new2"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="para" value="java.lang.String" id="para"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="test" value="java.lang.String" id="test"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="vIfYes" value="java.lang.Boolean" id="vIfYes"/>
+</form>
