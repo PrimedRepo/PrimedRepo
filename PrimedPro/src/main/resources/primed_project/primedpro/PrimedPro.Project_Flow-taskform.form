@@ -1,0 +1,214 @@
+
+<form id="625656292">
+<property name="name" value="PrimedPro.Project_Flow-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="ActorPM" type="InputText" id="1655663729">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ActorPM (ActorPM)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="ActorPM"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="ActorPMO" type="InputText" id="1870679141">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ActorPMO (ActorPMO)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="ActorPMO"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="ActorStackHolder" type="InputText" id="1060619186">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ActorStackHolder (ActorStackHolder)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="ActorStackHolder"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="PMApprovalFlag" type="CheckBox" id="1103510761">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PMApprovalFlag (PMApprovalFlag)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="PMApprovalFlag"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="4" name="PMOApprovalFlag" type="CheckBox" id="1275597974">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PMOApprovalFlag (PMOApprovalFlag)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="PMOApprovalFlag"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="5" name="PMOProComments" type="InputText" id="366443718">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PMOProComments (PMOProComments)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="PMOProComments"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="Project" type="InputText" id="846913779">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Project (Project)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Project"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="ProjectComments" type="InputTextInteger" id="1725938432">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ProjectComments (ProjectComments)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="ProjectComments"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="8" name="ProjectID" type="InputTextInteger" id="1942470910">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ProjectID (ProjectID)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="ProjectID"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="9" name="StackHolderComment" type="InputText" id="741877375">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;StackHolderComment (StackHolderComment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="StackHolderComment"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="StackholderAPFlag" type="CheckBox" id="127049623">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;StackholderAPFlag (StackholderAPFlag)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="StackholderAPFlag"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="11" name="CommentCapture" type="InputText" id="144178765">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;CommentCapture (CommentCapture)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="CommentCapture"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="FlagCapture" type="InputText" id="1198784494">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;FlagCapture (FlagCapture)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="FlagCapture"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="actorPM" type="InputText" id="330899770">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;actorPM (actorPM)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="actorPM"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="actorPMO" type="InputText" id="126811827">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;actorPMO (actorPMO)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="actorPMO"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="actorStackHolder" type="InputText" id="260814041">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;actorStackHolder (actorStackHolder)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="actorStackHolder"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="16" name="captureActor" type="InputText" id="1841705901">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;captureActor (captureActor)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="captureActor"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="17" name="projectId" type="InputTextInteger" id="1686647238">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;projectId (projectId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="projectId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="18" name="shActor" type="InputText" id="1486964994">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;shActor (shActor)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="shActor"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="19" name="count" type="InputTextInteger" id="521786797">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;count (count)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="count"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="20" name="mailIdCapture" type="InputText" id="397491530">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;mailIdCapture (mailIdCapture)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="mailIdCapture"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="21" name="mailSubject" type="InputText" id="1925948844">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;mailSubject (mailSubject)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="mailSubject"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="22" name="pmoMailBody" type="InputText" id="497684064">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pmoMailBody (pmoMailBody)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="pmoMailBody"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="23" name="pmoMailList" type="InputText" id="84726058">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pmoMailList (pmoMailList)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="pmoMailList"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="24" name="shMailBody" type="InputText" id="1289732245">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;shMailBody (shMailBody)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="shMailBody"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="25" name="stackholderMailList" type="InputText" id="1676467738">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;stackholderMailList (stackholderMailList)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="stackholderMailList"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="ActorPM" value="java.lang.String" id="ActorPM"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="ActorPMO" value="java.lang.String" id="ActorPMO"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="ActorStackHolder" value="java.lang.String" id="ActorStackHolder"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="CommentCapture" value="java.lang.String" id="CommentCapture"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="FlagCapture" value="java.lang.String" id="FlagCapture"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="PMApprovalFlag" value="java.lang.Boolean" id="PMApprovalFlag"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="PMOApprovalFlag" value="java.lang.Boolean" id="PMOApprovalFlag"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="PMOProComments" value="java.lang.String" id="PMOProComments"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="Project" value="java.lang.String" id="Project"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="ProjectComments" value="java.lang.Integer" id="ProjectComments"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="ProjectID" value="java.lang.Integer" id="ProjectID"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="StackHolderComment" value="java.lang.String" id="StackHolderComment"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="StackholderAPFlag" value="java.lang.Boolean" id="StackholderAPFlag"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="actorPM" value="java.lang.String" id="actorPM"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="actorPMO" value="java.lang.String" id="actorPMO"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="actorStackHolder" value="java.lang.String" id="actorStackHolder"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="captureActor" value="java.lang.String" id="captureActor"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="count" value="java.lang.Integer" id="count"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="mailIdCapture" value="java.lang.String" id="mailIdCapture"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="mailSubject" value="java.lang.String" id="mailSubject"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="pmoMailBody" value="java.lang.String" id="pmoMailBody"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="pmoMailList" value="java.lang.String" id="pmoMailList"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="projectId" value="java.lang.Integer" id="projectId"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="shActor" value="java.lang.String" id="shActor"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="shMailBody" value="java.lang.String" id="shMailBody"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="stackholderMailList" value="java.lang.String" id="stackholderMailList"/>
+</form>
