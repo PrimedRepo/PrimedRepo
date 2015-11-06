@@ -1,0 +1,46 @@
+
+<form id="373754379">
+<property name="name" value="StackholderProjectReview-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="CommentCapture" type="InputText" id="1368038328">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Comments (CommentCapture)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Comments"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="FlagCapture" type="InputText" id="1436280093">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Approval (FlagCapture)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Approval"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="Project" type="InputText" id="678408376">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;SHProject (Project)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="SHProject"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="captureActor" type="InputText" id="487474631">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;SetActor (captureActor)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="SetActor"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="projectId" type="InputTextInteger" id="1771064203">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;projectID (projectId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="projectID"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="Comments" value="java.lang.String" id="CommentCapture"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="Approval" value="java.lang.String" id="FlagCapture"/>
+<dataHolder inputId="SHProject" name="#A7E690" type="basicType" outId="" value="java.lang.String" id="Project"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="SetActor" value="java.lang.String" id="captureActor"/>
+<dataHolder inputId="projectID" name="#0000A0" type="basicType" outId="" value="java.lang.Integer" id="projectId"/>
+</form>
