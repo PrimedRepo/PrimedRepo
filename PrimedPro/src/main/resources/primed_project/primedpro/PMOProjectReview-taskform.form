@@ -1,0 +1,38 @@
+
+<form id="1217409641">
+<property name="name" value="PMOProjectReview-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="PMOProComments" type="InputText" id="200104232">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Comment (PMOProComments)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Comment"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="Project" type="InputText" id="1394324947">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PMOProject (Project)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="PMOProject"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="PMOApprovalFlag" type="InputText" id="1670125445">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Approval (PMOApprovalFlag)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="Approval"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="captureActor" type="InputText" id="687954415">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;SetActor (captureActor)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="SetActor"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="Approval" value="java.lang.String" id="PMOApprovalFlag"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="Comment" value="java.lang.String" id="PMOProComments"/>
+<dataHolder inputId="PMOProject" name="#A7E690" type="basicType" outId="" value="java.lang.String" id="Project"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="SetActor" value="java.lang.String" id="captureActor"/>
+</form>
