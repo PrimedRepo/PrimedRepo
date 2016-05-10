@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Primed.Project</groupId>
   <artifactId>PrimedPro</artifactId>
-  <version>1.11</version>
+  <version>1.12</version>
   <name>PrimedPro</name>
   <build>
     <plugins>
